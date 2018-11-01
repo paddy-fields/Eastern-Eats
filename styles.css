@@ -5,6 +5,9 @@
 .topnav {
     background-color: #444444;
     overflow: hidden;
+    border-radius: 5px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 .topnav a {
     float: left;
@@ -16,6 +19,7 @@
 }
 ul {
     list-style-type: none;
+    display: inline;
     margin: 0;
     padding: 0;
 }
