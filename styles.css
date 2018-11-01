@@ -1,0 +1,12 @@
+﻿body {
+    background-image: url("homeBackgroundBlur.jpg");
+}
+.header {
+    color: navajowhite;
+    text-align: center;
+}
+.mainPage {
+    background-color: beige;
+    color: darkslategrey;
+    margin: 25px 150px;
+}
