@@ -1,12 +1,48 @@
 ﻿body {
     background-image: url("homeBackgroundBlur.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    background-color: #444444;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60x;
+    border-radius: 5px;
+    margin: 10px;
+    -webkit-transition: background-color 0.75s, color 0.75s;
+    transition: background-color 0.75s, color 0.75s;
+}
+li a:hover {
+    background-color: #f2f2f2;
+    color: #444444;
 }
 .header {
     color: navajowhite;
     text-align: center;
 }
 .mainPage {
-    background-color: beige;
-    color: darkslategrey;
+    /*background-color: crimson;*/
+    background-image: linear-gradient(to bottom right, #FFDF00, #ff3f3f);
+    color: black;
     margin: 25px 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px beige;
+}
+.mainPageBody {
+    padding: 5px 25px;
 }
