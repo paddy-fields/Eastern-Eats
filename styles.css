@@ -46,7 +46,7 @@ li a:hover {
     color: #f2f2f2;
     margin: 25px /*150px*/;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px beige;
+    /*box-shadow: 0px 5px 20px beige;*/
 }
 .secondaryPage {
     background-image: linear-gradient(to bottom right, #ffffff, #ff3f3f);
@@ -57,4 +57,29 @@ li a:hover {
 }
 .mainPageBody {
     padding: 5px 25px;
+}
+img {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 0px black;
+    -webkit-transition: width 1s, height 1s, box-shadow 1s;
+    transition: width 1s, height 1s, box-shadow 1s;
+    margin: 10px;
+}
+img:hover {
+    width: 225px;
+    height: 225px;
+    box-shadow: 5px 5px 10px black;
+}
+.image {
+    /*width: auto;
+    margin-bottom: 25px;*/
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #2b2b2b;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
 }
