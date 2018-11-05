@@ -99,11 +99,11 @@ img:hover {
     margin-bottom: 20px;
     cursor: pointer;
 }
-.active .button:hover {
+.button:hover {
     background-color: #0087ff;
     color: #f2f2f2;
 }
-.chineseRecipe {
+.recipe {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
