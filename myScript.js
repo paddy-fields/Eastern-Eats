@@ -1,16 +1,9 @@
 function recipeClick() {
   var button = document.getElementsByClassName("button");
-  var buttonID = document.getElementById("buttonID");
   var i;
 
-  if(buttonID.innerHTML == "Recipe") {
-    buttonID.innerHTML = "Click Again";
-  } else {
-    buttonID.innerHTML = "Recipe";
-  }
-
   for (i = 0; i < button.length; i++) {
-    button[i].addEventListener("click", function recipeClick() {
+    button[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var recipe = this.nextElementSibling;
 

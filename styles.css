@@ -1,6 +1,7 @@
 ﻿body {
     background-image: url("homeBackgroundBlur.jpg");
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: anti-aliased;
 }
 .topnav {
     background-color: #2b2b2b;
