@@ -7,6 +7,8 @@
     -webkit-font-smoothing: anti-aliased;
 }
 .topnav {
+    position: sticky;
+    top: 0;
     background-color: #2b2b2b;
     overflow: hidden;
     border-radius: 5px;
@@ -44,6 +46,10 @@ li a:hover {
 .header {
     color: navajowhite;
     text-align: center;
+    padding: 10px;
+}
+.content {
+    padding: 10px;
 }
 .mainPage {
     background-color: #2b2b2b;
@@ -52,13 +58,6 @@ li a:hover {
     margin: 25px /*150px*/;
     border-radius: 10px;
     /*box-shadow: 0px 5px 20px beige;*/
-}
-.secondaryPage {
-    background-image: linear-gradient(to bottom right, #ffffff, #ff3f3f);
-    color: black;
-    margin: 25px 150px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 20px beige;
 }
 .mainPageBody {
     padding: 5px 25px;
@@ -113,12 +112,16 @@ img:hover {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+address {
+    padding: 10px;
+}
 footer {
     background-color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     display: block;
+    box-shadow: 0px 20px 100px black;
 }
 footer>p {
     padding: 10px;
