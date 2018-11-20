@@ -1,5 +1,5 @@
 function recipeClick() {
-  var button = document.getElementsByClassName("button");
+  var button = document.getElementsByClassName("recipeButton");
   var i;
 
   for (i = 0; i < button.length; i++) {
