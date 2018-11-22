@@ -15,3 +15,8 @@ function recipeClick() {
     });
   }
 }
+
+function chineseClick() {
+  var addButton = document.getElementById("addChinese");
+  var removeButton = document.getElementById("removeChinese");
+}
