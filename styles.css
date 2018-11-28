@@ -103,9 +103,9 @@ li a:hover {
     color: #f2f2f2;
 }
 .recipeButton {
-    background-color: #f2f2f2;
+    background-color: black;
     border: 2px solid #0087ff;
-    color: #2b2b2b;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
