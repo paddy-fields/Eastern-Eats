@@ -1,7 +1,7 @@
 # Eastern Eats Website
 This is the website for [Eastern Eats](https://randyypham.github.io/Eastern-Eats/)!
 
-![Eastern Eats background](https://github.com/RandyyPham/Marketing-Website/blob/master/websiteHome.jpg)
+![Eastern Eats background](https://github.com/RandyyPham/Eastern-Eats/blob/master/images/websiteHome.jpg)
 
 ## Authors
 
