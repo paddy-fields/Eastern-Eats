@@ -104,7 +104,7 @@ li a:hover {
 }
 .recipeButton {
     background-color: black;
-    border: 2px solid #0087ff;
+    border: 2px solid #e83064;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -118,8 +118,8 @@ li a:hover {
     cursor: pointer;
 }
 .recipeButton:hover {
-    background-color: #0087ff;
-    color: #f2f2f2;
+    background-color: #e83064;
+    color: #fff566;
 }
 .recipe {
     padding: 0 18px;
