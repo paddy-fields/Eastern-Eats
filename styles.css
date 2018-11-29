@@ -141,3 +141,10 @@ footer {
 footer>p {
     padding: 10px;
 }
+#email {
+    color: #fff566;
+    text-decoration: none;
+}
+#email:hover {
+    text-decoration-line: underline;
+}
